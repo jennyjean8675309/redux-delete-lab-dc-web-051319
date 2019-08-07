@@ -9,7 +9,6 @@ import { createStore } from 'redux';
 
 const store = createStore(manageBand)
 
-
 ReactDOM.render(
   <Provider store={store}>
     <App />
